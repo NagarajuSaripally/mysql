@@ -60,6 +60,7 @@ foreign key (address_id) references addresses (id);
 alter table people
 drop foreign key FK_people_address;
 
+select * from people;
 
 select * from pets;
 
